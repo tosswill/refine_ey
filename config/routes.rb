@@ -1,4 +1,7 @@
 RefineEy::Application.routes.draw do
+  
+  match '/mu-7be224dc-3b0c82ab-164126c2-9a1f7e1d' => proc {|env| [200,{},"42"]}
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
